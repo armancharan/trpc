@@ -154,7 +154,6 @@ export async function getServerSideProps(
     },
   };
 }
-
 export default function PostViewPage(
   props: InferGetServerSidePropsType<typeof getServerSideProps>,
 ) {
